@@ -51,13 +51,13 @@
 						<div class="product-grid" style="background-image:url(images/product-1.jpg);">
 							<div class="inner">
 								<p>
-									<a href="single.html" class="icon"><i class="icon-shopping-cart"></i></a>
-									<a href="single.html" class="icon"><i class="icon-eye"></i></a>
+									<a href="single.php" class="icon"><i class="icon-shopping-cart"></i></a>
+									<a href="single.php" class="icon"><i class="icon-eye"></i></a>
 								</p>
 							</div>
 						</div>
 						<div class="desc">
-							<h3><a href="single.html">Produit 1</a></h3>
+							<h3><a href="single.php">Produit 1</a></h3>
 							<span class="price">100 €</span>
 						</div>
 					</div>
@@ -68,14 +68,14 @@
 							<span class="sale">Nouveauté</span>
 							<div class="inner">
 								<p>
-									<a href="single.html" class="icon"><i class="icon-shopping-cart"></i></a>
-									<a href="single.html" class="icon"><i class="icon-eye"></i></a>
+									<a href="single.php" class="icon"><i class="icon-shopping-cart"></i></a>
+									<a href="single.php" class="icon"><i class="icon-eye"></i></a>
 								</p>
 							</div>
 						</div>
 						<div class="desc">
-							<h3><a href="single.html">Produit 2</a></h3>
-							<span class="price">50 €</span>
+							<h3><a href="single.php">Produit 2</a></h3>
+							<span class="price">100 €</span>
 						</div>
 					</div>
 				</div>
@@ -84,14 +84,14 @@
 						<div class="product-grid" style="background-image:url(images/product-3.jpg);">
 							<div class="inner">
 								<p>
-									<a href="single.html" class="icon"><i class="icon-shopping-cart"></i></a>
-									<a href="single.html" class="icon"><i class="icon-eye"></i></a>
+									<a href="single.php" class="icon"><i class="icon-shopping-cart"></i></a>
+									<a href="single.php" class="icon"><i class="icon-eye"></i></a>
 								</p>
 							</div>
 						</div>
 						<div class="desc">
-							<h3><a href="single.html">Produit 3</a></h3>
-							<span class="price">75 €</span>
+							<h3><a href="single.php">Produit 3</a></h3>
+							<span class="price">100 €</span>
 						</div>
 					</div>
 				</div>
@@ -103,14 +103,14 @@
 							<span class="sale">Nouveauté</span>
 							<div class="inner">
 								<p>
-									<a href="single.html" class="icon"><i class="icon-shopping-cart"></i></a>
-									<a href="single.html" class="icon"><i class="icon-eye"></i></a>
+									<a href="single.php" class="icon"><i class="icon-shopping-cart"></i></a>
+									<a href="single.php" class="icon"><i class="icon-eye"></i></a>
 								</p>
 							</div>
 						</div>
 						<div class="desc">
-							<h3><a href="single.html">Produit 4</a></h3>
-							<span class="price">15 €</span>
+							<h3><a href="single.php">Produit 4</a></h3>
+							<span class="price">100 €</span>
 						</div>
 					</div>
 				</div>
@@ -119,13 +119,13 @@
 						<div class="product-grid" style="background-image:url(images/product-5.jpg);">
 							<div class="inner">
 								<p>
-									<a href="single.html" class="icon"><i class="icon-shopping-cart"></i></a>
-									<a href="single.html" class="icon"><i class="icon-eye"></i></a>
+									<a href="single.php" class="icon"><i class="icon-shopping-cart"></i></a>
+									<a href="single.php" class="icon"><i class="icon-eye"></i></a>
 								</p>
 							</div>
 						</div>
 						<div class="desc">
-							<h3><a href="single.html">Produit 5</a></h3>
+							<h3><a href="single.php">Produit 5</a></h3>
 							<span class="price">100 €</span>
 						</div>
 					</div>
@@ -136,14 +136,14 @@
 							<span class="sale">Nouveauté</span>
 							<div class="inner">
 								<p>
-									<a href="single.html" class="icon"><i class="icon-shopping-cart"></i></a>
-									<a href="single.html" class="icon"><i class="icon-eye"></i></a>
+									<a href="single.php" class="icon"><i class="icon-shopping-cart"></i></a>
+									<a href="single.php" class="icon"><i class="icon-eye"></i></a>
 								</p>
 							</div>
 						</div>
 						<div class="desc">
-							<h3><a href="single.html">Produit 6</a></h3>
-							<span class="price">200 €</span>
+							<h3><a href="single.php">Produit 6</a></h3>
+							<span class="price">100 €</span>
 						</div>
 					</div>
 				</div>

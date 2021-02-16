@@ -4,7 +4,7 @@
 				<div class="col-md-3 col-xs-2">
 				</div>
 				<div class="col-md-6 col-xs-6 text-center menu-1">
-					<div id="fh5co-logo"><a href="index.html" style="font-size: 50px;">HIJELIA.</a></div>
+					<div id="fh5co-logo"><a href="./index.php" style="font-size: 50px;">HIJELIA.</a></div>
 				</div>
 				<div class="col-md-3 col-xs-4 text-right hidden-xs menu-2">
 				</div>
@@ -25,35 +25,35 @@
 				<div class="col-md-6 col-xs-6 text-center menu-1">
 					<ul>
 						<li class="has-dropdown">
-							<a href="#">Categorie 1</a>
+							<a href="./product.php">Categorie 1</a>
 							<ul class="dropdown">
-								<li><a href="#">SousCat. 1.1</a></li>
-								<li><a href="#">SousCat. 1.2</a></li>
-								<li><a href="#">SousCat. 1.3</a></li>
+								<li><a href="./product.php">SousCat. 1.1</a></li>
+								<li><a href="./product.php">SousCat. 1.2</a></li>
+								<li><a href="./product.php">SousCat. 1.3</a></li>
 							</ul>
 						</li>
 						<li class="has-dropdown">
-							<a href="#">Categorie 2</a>
+							<a href="./product.php">Categorie 2</a>
 							<ul class="dropdown">
-								<li><a href="#">SousCat. 2.1</a></li>
-								<li><a href="#">SousCat. 2.2</a></li>
-								<li><a href="#">SousCat. 2.3</a></li>
+								<li><a href="./product.php">SousCat. 2.1</a></li>
+								<li><a href="./product.php">SousCat. 2.2</a></li>
+								<li><a href="./product.php">SousCat. 2.3</a></li>
 							</ul>
 						</li>
 						<li class="has-dropdown">
-							<a href="#">Categorie 3</a>
+							<a href="./product.php">Categorie 3</a>
 							<ul class="dropdown">
-								<li><a href="#">SousCat. 3.1</a></li>
-								<li><a href="#">SousCat. 3.2</a></li>
-								<li><a href="#">SousCat. 3.3</a></li>
+								<li><a href="./product.php">SousCat. 3.1</a></li>
+								<li><a href="./product.php">SousCat. 3.2</a></li>
+								<li><a href="./product.php">SousCat. 3.3</a></li>
 							</ul>
 						</li>
-						<li><a href="contact.html">Contact</a></li>
+						<li><a href="./contact.php">Contact</a></li>
 					</ul>
 				</div>
 				<div class="col-md-3 col-xs-4 text-right hidden-xs menu-2">
 					<ul>
-						<li class="shopping-cart"><a href="#" class="cart"><span><small>0</small><i class="icon-shopping-cart"></i></span></a></li>
+						<li class="shopping-cart"><a href="./shopping.php" class="cart"><span><small>0</small><i class="icon-shopping-cart"></i></span></a></li>
 					</ul>
 				</div>
 			</div>
