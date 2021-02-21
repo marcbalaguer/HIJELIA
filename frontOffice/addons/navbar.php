@@ -53,6 +53,7 @@
 				</div>
 				<div class="col-md-3 col-xs-4 text-right hidden-xs menu-2">
 					<ul>
+						<li class="shopping-cart"><a href="./contactAccount.php" class="cart"><span><i class="icon-user"></i></span></a></li>
 						<li class="shopping-cart"><a href="./shopping.php" class="cart"><span><small>0</small><i class="icon-shopping-cart"></i></span></a></li>
 					</ul>
 				</div>
