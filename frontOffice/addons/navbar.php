@@ -24,30 +24,31 @@
 				</div>
 				<div class="col-md-6 col-xs-6 text-center menu-1">
 					<ul>
-						<li class="has-dropdown">
-							<a href="./product.php">Categorie 1</a>
-							<ul class="dropdown">
-								<li><a href="./product.php">SousCat. 1.1</a></li>
-								<li><a href="./product.php">SousCat. 1.2</a></li>
-								<li><a href="./product.php">SousCat. 1.3</a></li>
-							</ul>
-						</li>
-						<li class="has-dropdown">
-							<a href="./product.php">Categorie 2</a>
-							<ul class="dropdown">
-								<li><a href="./product.php">SousCat. 2.1</a></li>
-								<li><a href="./product.php">SousCat. 2.2</a></li>
-								<li><a href="./product.php">SousCat. 2.3</a></li>
-							</ul>
-						</li>
-						<li class="has-dropdown">
-							<a href="./product.php">Categorie 3</a>
-							<ul class="dropdown">
-								<li><a href="./product.php">SousCat. 3.1</a></li>
-								<li><a href="./product.php">SousCat. 3.2</a></li>
-								<li><a href="./product.php">SousCat. 3.3</a></li>
-							</ul>
-						</li>
+					<?php
+						$typesList = array ();
+						$categoriesList = array ();
+						try {
+							$dbh = new PDO('mysql:host=localhost;dbname=hijelia', "hijelia", "BJ5mAuegzVtO7BHU");
+							foreach($dbh->query('Select * From types') as $row) {
+								if($row['id_type'] != null){
+									$leMenu = '<li class="has-dropdown">';
+									$leMenu .='<a href="./product.php?type='.$row['id_type'].'">'.$row['libel'].'</a>';
+									$leMenu .='<ul class="dropdown">';
+									foreach($dbh->query('Select * From categories where id_type = '.$row['id_type']) as $row2) {
+										$leMenu .= '<li>';
+										$leMenu .='<a href="./productSous.php?type='.$row2['id_category'].'">'.$row2['libel'].'</a>';
+										$leMenu .='</li>';
+									}
+									$leMenu .='</ul></li>';
+								}
+								print($leMenu);
+							}
+							$dbh = null;
+						} catch (PDOException $e) {
+							print "Erreur !: " . $e->getMessage() . "<br/>";
+							die();
+						}
+					?>
 						<li><a href="./contact.php">Contact</a></li>
 					</ul>
 				</div>
